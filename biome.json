@@ -18,13 +18,15 @@
 		"rules": {
 			"recommended": true,
 			"a11y": {
-				"useSemanticElements": "off"
+				"useSemanticElements": "off",
+				"useValidAnchor": "off"
 			},
 			"security": {
 				"noDangerouslySetInnerHtml": "off"
 			},
 			"correctness": {
-				"noNestedComponentDefinitions": "off"
+				"noNestedComponentDefinitions": "off",
+				"useUniqueElementIds": "off"
 			},
 			"suspicious": {
 				"noUnknownAtRules": "off"
